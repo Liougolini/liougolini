@@ -2,26 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheep" href="formulario.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inscripcion</title>
+    <title>Inscripcion</title>
 </head>
 
 
 <body>
-    <header><h1>Mar del Plata Programa</h1> </header>
-    <h2> Desarrolla tu habilidad en progrmacion</h2>
-    
-    <h3>inscribite a la carrera de Desarrollador web Full-Stack y sigue mejorando tu futuro</h3>
+    <header  style="background-color: blue;"><h1>Mar del Plata Programa</h1> </header>
+    <hr>
+    <h2 style="background-color: bisque;"> Desarrolla tu habilidad en progrmacion</h2>
+    <hr>
+    <h3 style="background-color: brown;">Inscribite a la carrera de Desarrollador web Full-Stack y sigue mejorando tu futuro</h3>
 
     <nav></nav>
-    <main>
-   <article>
+    <main  style="background-color: blanchedalmond;" >
+   <article >
     <section>
     <form>
         <fieldset>
         <legend><p> Inscripcion al curso de Desarrollo Web año 2023</p></legend>
-        <img src="https://www.itconsultors.com/images/blog/web-dev.jpg" title="Lenguajes de marcado" width="500" ><br>
+        <img   src="https://www.itconsultors.com/images/blog/web-dev.jpg" title="Lenguajes de marcado" width="500" ><br>
         <br>
            <label for="Name"> Nombre:</label>
         <input type="text" id="Name" name="name" placeholder="Completar" required><br>
@@ -44,6 +46,15 @@
         <label for="Tel">Telefono: </label>
         <input type="tel" id="Tel" required placeholder=" Completar">
         <br>
+        <br>
+        <label>Pais</label>
+        <select>
+            
+            <Option value="Brasil">Brasil</Option>
+            <Option value="Argentina" selected>Argentina</Option>
+            <Option value="uruguay">Uruguay</Option>
+            <Option value="Chile">Chile</Option>
+        </select required>
         <br>
         <p>En breve nos estaremos poniendo en contacto.</p>
         <br>
