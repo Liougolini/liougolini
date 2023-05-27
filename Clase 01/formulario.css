@@ -42,3 +42,6 @@ color: azure;
     font-size: 1em;
     border-bottom: 10dvb;
 }
+input{
+    border-radius: 50px;
+}
