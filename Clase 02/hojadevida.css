@@ -1,2 +1,19 @@
 body {background-color: bisque;}
 body {text-align: justify;}
+.titulo{
+    text-align: left;
+    font-size:xx-large;
+    font-style: oblique;
+}
+.foto{
+    float: left;
+    padding:1px 20px 5px 5px;
+    background-size: cover;
+    width: 150px;
+}
+.contacto{
+    font-size: 2rem;
+}
+p{
+    font-style: italic
+}
