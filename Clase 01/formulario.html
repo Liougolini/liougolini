@@ -2,37 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="Stylesheep" href="formulario.css">
+    <link rel="stylesheet" href="formulario.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscripcion</title>
 </head>
 
 
-<body>
-    <header  style="background-color: blue;"><h1>Mar del Plata Programa</h1> </header>
-    <hr>
-    <h2 style="background-color: bisque;"> Desarrolla tu habilidad en progrmacion</h2>
-    <hr>
-    <h3 style="background-color: brown;">Inscribite a la carrera de Desarrollador web Full-Stack y sigue mejorando tu futuro</h3>
+<body class="body">
+    <header>
+        <h1 class="titulo">Mar del Plata Programa</h1> 
+    </header>
+    
+    <h2> Aprende a <span style="font-weight: bold;">PROGRAMAR</span></h2>
+    
+    <h3 >Inscribite a la carrera de <br> Desarrollador web Full-Stack y sigue mejorando tu futuro</h3>
 
     <nav></nav>
-    <main  style="background-color: blanchedalmond;" >
+    <main class="main">
    <article >
     <section>
-    <form>
+    <form  action=" " method="post" >
         <fieldset>
-        <legend><p> Inscripcion al curso de Desarrollo Web año 2023</p></legend>
-        <img   src="https://www.itconsultors.com/images/blog/web-dev.jpg" title="Lenguajes de marcado" width="500" ><br>
+        <legend ><span class="legenda"> Inscripcion al curso de Desarrollo Web año 2023</span></legend>
+        <img style="border-radius: 1000px;" src="./img/code.jpg" title="Lenguajes de marcado" width="500" ><br>
         <br>
            <label for="Name"> Nombre:</label>
         <input type="text" id="Name" name="name" placeholder="Completar" required><br>
         <br>
         <label for="Apellido">Apellido:</label>
         <input type="text"id="Apellido" name="lastname "placeholder="Completar"required><br><br>
-        Genero:<br>
-        <input type="radio" name="genero" value="Hombre" checked>Hombre <br>
-        <input type="radio" name="genero" value="Mujer" checked>Mujer <br>
+        <label for="genero">Genero</label>
+        <input type="radio" name="genero" value="Hombre" checked>Hombre 
+        <input type="radio" name="genero" value="Mujer" checked>Mujer 
         <input type="radio" name="genero" value="Otro" checked>Otro<br>
         <br>
         <label for="Fecha">Fecha de nacimiento:</label>
@@ -40,7 +42,7 @@
         <br>
         <br>
         <label for="Correo">Correo:</label>
-        <input type="imailto" id="Correo" required placeholder="Completar">
+        <input type="imailto" id="Correo" required placeholder="Completar" >
         <br>
         <br>
         <label for="Tel">Telefono: </label>
@@ -56,12 +58,12 @@
             <Option value="Chile">Chile</Option>
         </select required>
         <br>
-        <p>En breve nos estaremos poniendo en contacto.</p>
+        <p class="mensaje">En breve nos estaremos poniendo en contacto.</p>
         <br>
         <br>
-        <input type="submit" value="Enviar"><br>
-        <br>
-        <a href="" title="Contacto"> Contacto</a>
+        <button class="boton" type="button" name="Enviar">Enviar</button>
+        <br><br>
+        <a class="contacto" href="" title="Contacto"> Contacto</a>
     </fieldset>
 
     </form>

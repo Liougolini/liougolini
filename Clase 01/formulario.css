@@ -1,2 +1,44 @@
-#centrar  {text-align: center
-    ;}
+.titulo, h2, h3{
+    
+    text-align: center;
+    font-size: 40px; 
+    
+}
+
+
+.body {
+    background-image: url("/img/foto1.png");
+    background-size: cover;
+
+    
+   
+}
+label { font-style: oblique;}
+.main{
+    text-align: center;
+}
+label{
+    color: white;
+}
+form {
+    text-align: ;
+
+}
+.mensaje {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.legenda {font-size: 25px;
+font-style:inherit;
+font-weight: bold;
+color: azure;
+}
+.contacto{
+    font-size: 25px;
+    color: #000;;
+}
+.boton{
+    font-size: 1em;
+    border-bottom: 10dvb;
+}

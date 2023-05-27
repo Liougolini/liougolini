@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practicas</title>
 </head>
 <body>
+
+    <h1>Elementos Tabla</h1>
     <table style="width:400px";>
         <thead>
         <tr>
@@ -42,6 +44,58 @@
         
     </tfoot>
     </table>
+    <br>
+    <br>
+    <table style="width: 6px;">
+        <tbody>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Direccion</th>
+                <th>Fecha de nacimiento</th>
+                <th>Puesto</th>
+                <th>Nacionalid</th>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Juarez</td>
+                <td>Peña 4345</td>
+                <td>18-05-80</td>
+                <td>Conserje</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Sebastian</td>
+                <td>Persico</td>
+                <td>Las Grutas 5474</td>
+                <td>15-02-1999</td>
+                <td>Administrativo</td>
+                <td>Argentina</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br>
+    <h1>Elemento input</h1>
+    <form action="" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre"  id="nombre" placeholder="Escriba aqui" required>
+        <label for="contraseña">Contraseña</label>
+        <input id="contraseña" type="password" placeholder="Escriba aqui" name="contraseña" value="contraseña" required>
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="sexo" value="M" required id="mujer">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="sexo" value="H" required id="hombre">
+        <label for="otros">Otro</label>
+        <input type="radio" name="sexo" value="Otro" required id="otro">
+        <br><br>
+        <button  name="button" type="submit" value="enviar">Enviar</button>
+    </form>
+
+
+
+
+
     
 </body>
 </html>
