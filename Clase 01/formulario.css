@@ -4,15 +4,17 @@
     font-size: 40px; 
     
 }
+.fondo{
+background-image: url("./img/foto1.png");
+background-size: cover;
+}
 
 
-.body {
-    background-image: url("/img/foto1.png");
-    background-size: cover;
 
     
+  
    
-}
+
 label { font-style: oblique;}
 .main{
     text-align: center;
@@ -21,7 +23,7 @@ label{
     color: white;
 }
 form {
-    text-align: ;
+    text-align: 
 
 }
 .mensaje {

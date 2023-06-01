@@ -1,5 +1,7 @@
-body {background-color: bisque;}
-body {text-align: justify;}
+.fondo {background-color: bisque;
+    text-align: justify;
+}
+
 .titulo{
     text-align: left;
     font-size:xx-large;
@@ -10,6 +12,7 @@ body {text-align: justify;}
     padding:1px 20px 5px 5px;
     background-size: cover;
     width: 150px;
+    border-radius: 50px;
 }
 .contacto{
     font-size: 2rem;
@@ -17,3 +20,5 @@ body {text-align: justify;}
 p{
     font-style: italic
 }
+
+
