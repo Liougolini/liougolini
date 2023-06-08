@@ -19,9 +19,12 @@ header img{
 }
 div.serch{
     float: right;
-    
     margin-top: 20px;
-    margin-right: 2px;
+    
+    
+}
+div.serch input{
+    width: 150px;
 }
 header nav ul li{
     list-style: none;
@@ -108,14 +111,17 @@ border: black solid;
 background-color: rgb(199, 198, 198);
 margin: 10px;
 float: left;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.foto p{
+    text-align: center;
+    margin: 10px;
+   
+}
+
 div.foto img{
     max-width: 100%;
     margin: 0px;
-    
-}
-.section{
-    background-color: brown;
 }
 aside h2{
     color: rgb(255, 255, 255);
@@ -139,41 +145,46 @@ aside textarea{
 }
 div.foto button{
     color: #000000;
-    background:transparent;
-    color: #1a6b6b;
-    border-radius: 6px;
-    float: left;
+    
+    color: #020100;
+    margin-bottom: 10px;
     
     
 }
 aside nav ul li a{
     color: rgb(229, 241, 241);
-    font-size: 2em;
+    font-size: 1em;
+    list-style: none;
     text-decoration:none; 
-    
-    
-
-    
-    
+ 
+   
+      
 }
 aside nav ul li a:hover{
-    color: red;
+    color: rgb(255, 251, 0);
+    display: block;
+    width: 70%;
+    background-color: #fa7a03;
+    transition: 1s;  
     
 }
 aside nav ul li{
     text-align: left;
     font-size: 1em;
     margin-top: 15px;
+    font-family: fantasy;
 }
 aside input{
-    float: left;
+    
     padding: 10px auto;
     margin-bottom: 20px;
     border: rgb(15, 15, 15) solid;
+    width: 300px;
     
 }
 aside p.contacto1{
     color: rgb(255, 247, 240);
+    max-width: 100%;
     font-size: 1.2em;
     font-family: sans-serif;
     text-align: center;
@@ -182,8 +193,11 @@ aside p.contacto1{
 }
 aside div.contacto{
     border: black solid;
+    border-radius: 10%;
     background-color:rgba(255, 255, 255, .2);
-    width: 90%
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
 
 
 }
