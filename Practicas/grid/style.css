@@ -1,0 +1,86 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: auto auto auto;
+    gap: 1px;
+}
+.container div{
+    border: black 1px solid;
+    text-align: center;
+    padding: 20px;
+    background: rgb(168, 168, 168);
+    color: white;
+    font-size: 1em;
+    font-family:sans-serif;
+}
+
+/* tabla combinada*/
+
+.contenedor{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    gap: 2px;
+}
+.contenedor div{
+    background: darkgray;
+    border: black 1px solid;
+    padding: 20px;
+    font-family: sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+}
+.contenedor .uno{
+    grid-column: 1/4;
+}
+/*Celdas combinadas*/
+.contenedor2{
+    display: grid;
+    grid-template-columns: 100px 150px 150px;
+    gap: 2px;
+
+}
+.contenedor2 div{
+    background: darkgray;
+    border: black 1px solid;
+    padding: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color:white;
+}
+.contenedor2 .cabecera{
+    grid-column: 1/4;
+}
+.contenedor2 .celda2{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+/* Grid Area*/
+.contenedor-area{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "celda1    celda1  celda1"
+                        " celda2    celda3  celda4"
+                        " celda2    celda5  celda6";
+                        
+                        
+}
+.contenedor-area div{
+    border: black 1px solid;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    background: gray;
+}
+.contenedor-area .celda1{    
+    grid-area: celda1;
+}
+.contenedor-area  .celda2{
+    grid-area: celda2;
+    
+
+
+}
