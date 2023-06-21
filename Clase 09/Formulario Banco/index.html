@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulario Banco</title>
+</head>
+<body>
+    
+    <form  class="formulario">
+            <div class="titulo">
+                <img src="./img/logo2.avif" alt="logo de banco">
+                <p style="align-self: center;">Formulario de consultas bancaria</p>
+            </div>
+        
+        <div class="radio">
+            <label for="">Cuenta corriente en pesos  <i class="fa-solid fa-dollar-sign"></i></label>
+            <input type="radio" name="pesos" id="">
+        </div>
+
+        <div class="radio">
+            <label for="">Cuenta corriente en dolar <i class="fa-solid fa-dollar-sign"></i></label>
+            <input type="radio" name="pesos" id="">
+        </div>
+
+        <div >
+            <label for=""></label>
+            <i class="fa-solid fa-envelope fa-icons"></i>
+            <input type="email" placeholder="Email" required>
+        </div>
+
+        <div >
+            <label for=""></label>
+            <i class="fa-solid fa-mobile fa-icons"></i>
+            <input type="number" placeholder="Telefono" required>
+        </div>
+
+        <div class="text-area">
+            <textarea  name="Comentario" id="" cols="30" rows="10" placeholder="Escriba aqui su consulta" required></textarea>
+        </div>
+
+        <div class="button">
+            <button  class="button">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+.form{
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+::placeholder{ /*  placeholder es un pseudo elemento :: */
+    color: red;
+    opacity: 0.5;
+}
+.form .input{
+    padding: 5px;
+    position: relative;
+}
+.form input{
+    outline: none;
+    width: 100%;
+    padding-left:20px ;
+    padding-right: px;
+}
+.form input:focus{ /*Hace referencia cuando esta dentro o sobre los input*/
+    color: #c73535;
+    border: none;
+    border-bottom: #c73535 dotted;
+    background-color: rgb(92, 84, 84);
+    color: white;
+    border-radius: 10px;
+}
+.form input:valid{ /* Se utiliza si en el input esta el Required*/
+    color: green;
+}
+.form input:invalid{
+    color: red;
+}
+.form input:required{
+    border: 1px solid red;
+}
+.form .submit button{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.fa-icons{
+    position: absolute;
+    bottom: 6px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+/*Formulario bancario*/
+
+   

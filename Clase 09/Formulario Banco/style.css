@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+}
+
+.formulario{
+    
+    border: black 1px solid;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(203, 230, 190);
+    padding: 20px;
+    
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+}
+.formulario div {
+    padding: 10px; 
+    }
+
+.formulario .titulo{
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background: white;
+    color: green;
+    transition: 0.35s;
+    
+    
+    
+}
+.formulario .titulo:hover{
+    background-color: rgb(9, 37, 37);
+    color: rgb(167, 238, 167)
+}
+
+::placeholder{
+    color: #351d1dee;
+    opacity: 0.5;
+}
+.formulario .radio {
+    font-size: 20px;
+    background: rgb(111, 204, 120);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(194, 189, 189),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);; 
+
+    
+}
+.formulario input{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+}
+  
+ .formulario input:invalid{
+    color:rgb(241, 11, 11)
+}
+
+.formulario  input:valid{
+color:green
+}
+
+.formulario input:hover{
+    background: #eeee;    
+}
+
+.text-area  textarea{
+    border: none;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);; 
+    outline: none;
+}
+
+ .button button{
+width: 50%;
+border: none;
+background: rgb(190, 180, 180);
+border-radius: 10px;
+padding: 10px;
+font-size: 20px;
+transition: .35s;
+cursor: pointer;
+box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+0 0  0 2px rgb(167, 162, 162),
+0.3em 0.3em 1em rgba(0,0,0,0.3);;
+ }
+ .button button:hover{
+    color: #cebbbbee;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .titulo {
+    
+ }
+  .titulo img{
+   align-self: flex-end;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 10vh;
+ }
+    
+    
+    
+        
+
+
