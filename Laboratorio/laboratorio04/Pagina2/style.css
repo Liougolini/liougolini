@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_lateral {
+    top: 25%;
+    padding: 10px;
+    background-color: darkgray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav_lateral li {
+    list-style: none;
+}
+
+.nav_lateral ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav_lateral i {
+    color: rgb(255, 255, 255);
+}
+
+.cardHover{
+    cursor: pointer;
+    height: 45vh;
+    
+    
+   
+}
+
+/*Aparezca boton en el card*/
+.cardHover:hover > .btn{
+    display: inline-block !important;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+
+}
+.cardHover:hover > img{
+    
+    filter: grayscale(1.5);
+    transition: .5s;
+    
+} 
+.cardHover img{
+    height: 100%;
+    
+}
+.carouselCss .carousel-item img{
+    height: 90vh;
+}
