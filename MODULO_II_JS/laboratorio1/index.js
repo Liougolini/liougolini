@@ -5,3 +5,5 @@
 /*  let numeroUno= Prompt ("ingrese el valor uno: ");
      console.log(numeroUno);
 */
+let numeroUno = prompt ("ingrese el valor uno:");
+console.log(numeroUno);
